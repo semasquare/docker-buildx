@@ -1,6 +1,6 @@
 FROM busybox AS builder
 
-RUN wget https://github.com/docker/buildx/releases/download/v0.2.2/buildx-v0.2.2.linux-amd64 -O /tmp/docker-buildx
+RUN wget https://github.com/docker/buildx/releases/download/v0.3.0/buildx-v0.3.0.linux-amd64 -O /tmp/docker-buildx
 
 FROM docker:git
 
